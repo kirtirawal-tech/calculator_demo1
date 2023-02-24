@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/345d0e09c2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+    <div class="one">
+    <h1>Calculator</h1>
+    <input class="three" type="text" disabled id="digit_1"><br>
+    <input class="three" type="text" value="0" id="digit">
+    <br>
+    <button class="two" onclick="clearAll()"><i class="fa-regular fa-c"></i></button>
+    <button class="two" onclick="getValue('/')"><i class="fa-solid fa-divide"></i></button>
+    <button class="two" onclick="getValue('*')"><i class="fa-solid fa-xmark"></i></button>
+    <button class="two" onclick="removeEnd()"><i class="fa-solid fa-delete-left"></i></button>
+    <br>
+    <button class="two" onclick="getValue('7')"><i class="fa-solid fa-7"></i></button>
+    <button class="two" onclick="getValue('8')"><i class="fa-solid fa-8"></i></button>
+    <button class="two" onclick="getValue('9')"><i class="fa-solid fa-9"></i></button>
+    <button class="two" onclick="getValue('-')"><i class="fa-solid fa-minus"></i></button>
+    <br>
+    <button class="two" onclick="getValue('4')"><i class="fa-solid fa-4"></i></button>
+    <button class="two" onclick="getValue('5')"><i class="fa-solid fa-5"></i></button>
+    <button class="two" onclick="getValue('6')"><i class="fa-solid fa-6"></i></button>
+    <button class="two" onclick="getValue('+')"><i class="fa-solid fa-plus"></i></button>
+    <br>
+    <button class="two" onclick="getValue('1')"><i class="fa-solid fa-1"></i></button>
+    <button class="two" onclick="getValue('2')"><i class="fa-solid fa-2"></i></button>
+    <button class="two" onclick="getValue('3')"><i class="fa-solid fa-3"></i></button>
+    <button class="two" onclick="solution()"><i class="fa-solid fa-equals"></i></button>
+    <br>
+    <button class="two" onclick="getValue('%')"><i class="fa-solid fa-percent"></i></button>
+    <button class="two" onclick="getValue('0')"><i class="fa-solid fa-0"></i></button>
+    <button class="two" onclick="getValue('.')">.</button>
+    <button background class="two"><i class="fa-solid fa-clock-rotate-left"></i></button>
+    <div>
+        <h1 class="four">History</h1>
+    </div>
+    </div>
+    
+    <script src="calculator.js"></script>
+</body>
+</html>
