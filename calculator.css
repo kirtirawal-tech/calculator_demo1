@@ -1,16 +1,24 @@
-.one{
-    margin-left: 100px;
-   }
-.two{
+.one {
+   margin-left: 100px;
+}
+
+.two {
    height: 30px;
    width: 35px;
-}    
-.three{
-     text-align: right;
-     width: 22%;
+   border: none;
+   margin-top: 5px;
 }
-.four
-{
-   float: right; 
-   margin-top: auto;    
+
+.three {
+   text-align: right;
+   width: 23%;
+}
+
+.four {
+   float: right;
+   margin-top: auto;
+}
+.history{
+   margin-right: 40px;
+   text-align: right;
 }
